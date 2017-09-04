@@ -1,0 +1,158 @@
+
+.absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.absolute-Center.is-responsive {
+    width: 50%;
+    height: 60%;
+    min-width: 250px;
+    max-width: 550px;
+    padding: 5px;
+}
+
+.absolute-Center h4 {
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.btnSearch {
+    background: #00b0f0;
+    padding: 5px 25px;
+    margin: 0px 0px;
+}
+
+.lblHeaderTitle {
+    color: #00b0f0;
+    font-size: 20px;
+    font-weight: normal;
+    /* text-decoration: underline; */
+}
+
+
+.handCursor {
+    cursor: pointer;
+}
+
+/************************************List Styles***********************************/
+
+.noPadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+table {
+    margin-bottom: 0px !important;
+    /*table-layout: fixed;*/
+    overflow-x: inherit !important;
+}
+
+.ListTable table thead {
+    background: #dadce1;
+}
+
+.table-responsive {
+    overflow-x: visible !important;
+}
+
+.centerAlign {
+    text-align: center;
+}
+
+.contentWidth {
+    width: 100%;
+    text-align: left;
+}
+
+.listData {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.ListTable table td a {
+    font-family: Arial;
+    font-size: 1vw;
+    color: #333c76;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.ListTable table td,
+.ListTable table th {
+    border-left: 1px solid #c0c3c8;
+    border-right: 1px solid #c0c3c8;
+}
+
+.ListTable table td {
+    font-family: Arial;
+    font-size: 1vw;
+    color: #474747;
+    max-width: 0px;
+}
+
+.ListTable table th {
+    font-family: Arial;
+    font-size: 1.0vw;
+    color: #373737;
+    font-weight: Bold;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    border-top: 0;
+}
+
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+tbody a {
+    cursor: pointer;
+}
+
+.ListTable table tr:last-child {
+    border-bottom: 1px solid #c0c3c8 !important;
+}
+
+.noRecordsAvailable {
+    font-family: Arial;
+    font-size: 1.2vw;
+    color: #474747;
+    border: 1px solid #c0c3c8 !important;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    /* margin-top: 4%; */
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background: #ffffff;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background: #f1f1f1;
+}
+
+.no_margin_left_right {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+/************************end - List table********************************/
